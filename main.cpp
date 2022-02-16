@@ -8,8 +8,9 @@
 #include <sys/syscall.h>
 #include "headers/program.h"
 
-int main() {
-    std::ifstream t("../main.bfunk");
+int main(int argc,  char **argv) {
+	std::string filename = argv[1]; 
+    std::ifstream t(filename);
     std::string input((std::istreambuf_iterator<char>(t)), std::istreambuf_iterator<char>());
     Program program; 
     program.input = input;
