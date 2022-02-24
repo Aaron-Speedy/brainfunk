@@ -7,7 +7,7 @@ v to move the function pointer down
 ! to reset the pointer of the current function pointed to by the function pointer   
 [...] Like a normal loop but it works in the caller function    
 {...} like [] but it checks if a function is there  
-; ends the line   
+; ends the function
 c duplicate the current function to the end of the function array  
 r delete the current function   
 
@@ -16,3 +16,8 @@ Implementation:
  - Unbounded memory 
  - Moving to negative cell indexes wraps it around 
  
+Example program:
+	```brainfuck
+	:;
+	+[+.];
+	```
