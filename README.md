@@ -17,7 +17,7 @@ Implementation:
  - Moving to negative cell indexes wraps it around 
  
 Example program:  
-	```brainfuck
+	``brainfuck
 	:;
 	+[+.];
-	```
+	``
