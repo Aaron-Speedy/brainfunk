@@ -15,9 +15,7 @@ Implementation:
  - 8 bit cells
  - Unbounded memory 
  - Moving to negative cell indexes wraps it around 
- 
-Example program:  
-	``brainfuck
-	:;
-	+[+.];
-	``
+```brainfuck
+:;  
++[+.];  
+```
