@@ -10,3 +10,9 @@ v to move the function pointer down
 ; ends the line   
 c duplicate the current function to the end of the function array  
 r delete the current function   
+
+Implementation: 
+ - 8 bit cells
+ - Unbounded memory 
+ - Moving to negative cell indexes wraps it around 
+ 
